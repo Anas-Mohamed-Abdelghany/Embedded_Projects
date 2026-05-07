@@ -1,4 +1,4 @@
-# 🤖 Bare-Metal Embedded C Showcase
+# 🤖 Embedded Systems Projects - Valeo Course
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c" alt="Language: C">
@@ -8,9 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT">
 </p>
 
-Welcome to my collection of embedded C projects, written entirely from scratch without vendor-provided HALs, CMSIS, or high-level libraries. This repository demonstrates core concepts in embedded systems programming, from low-level memory manipulation to complex, state-driven applications on ARM Cortex-M microcontrollers.
-
-The philosophy behind these projects is to build robust, modular, and efficient firmware by directly manipulating hardware registers and understanding the underlying architecture.
+This repository showcases a series of bare-metal C projects developed as part of an embedded systems Course under the guidance of **Eng. Hossam** from **Valeo**. The collection demonstrates core concepts in embedded programming by building robust, modular, and efficient firmware directly on the hardware without vendor HALs.
 
 ---
 
@@ -94,6 +92,15 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O1 src/*.c -I include/ -T linker.ld -
 # Flash to the target device
 st-flash write output.bin 0x08000000
 ```
+
+---
+
+## 👥 Project Team
+
+This collection was developed by:
+
+*   **Anas Mohamed** - `https://www.linkedin.com/in/anas-mohamed-716959313/`
+*   **Sandy Khalil** - `https://www.linkedin.com/in/sandy-khalil-786428289/`
 
 ---
 
