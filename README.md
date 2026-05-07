@@ -35,6 +35,8 @@ A reusable, hardware-agnostic C library for safe memory access and structured me
 
 ### 2. [STM32 Bare-Metal Door Lock System](./Project%202%20(Door%20Lock%20System)/)
 
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1fe98600-c75c-43ae-9387-f875f42ed9b1" />
+
 A complete bare-metal security system for an STM32F4 microcontroller. It implements a PIN-based door lock using a keypad, 7-segment display, and LEDs, all managed by a robust Mealy finite state machine.
 
 **🚀 Key Features:**
@@ -52,6 +54,8 @@ A complete bare-metal security system for an STM32F4 microcontroller. It impleme
 *   Critical sections for safe state transitions.
 
 ### 3. [STM32 Auto-Cooler System](./Project%203%20(Auto-Cooler%20System)/)
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ab231db1-939e-42df-801c-4651880ec8cf" />
 
 A real-time temperature control system for the STM32F401. It uses an ADC to read an LM35 temperature sensor and dynamically controls a cooling fan via PWM, all driven by a state machine and displayed on a 16x2 LCD.
 
