@@ -18,7 +18,7 @@ The philosophy behind these projects is to build robust, modular, and efficient 
 
 This repository is organized into three distinct projects, each in its own sub-directory.
 
-### 1. [Embedded Memory & Message Codec Library](./project-1-memory-codec/)
+### 1. [Embedded Memory & Message Codec Library](./Project%201%20(Memory%20&%20Codec%20Library)/)
 
 A reusable, hardware-agnostic C library for safe memory access and structured message encoding/decoding. This project serves as a foundational toolkit for building reliable communication protocols in memory-constrained environments.
 
@@ -35,7 +35,7 @@ A reusable, hardware-agnostic C library for safe memory access and structured me
 *   Union-based data views for zero-overhead type punning.
 *   Static encapsulation for module-private state.
 
-### 2. [STM32 Bare-Metal Door Lock System](./project-2-door-lock/)
+### 2. [STM32 Bare-Metal Door Lock System](./Project%202%20(Door%20Lock%20System)/)
 
 A complete bare-metal security system for an STM32F4 microcontroller. It implements a PIN-based door lock using a keypad, 7-segment display, and LEDs, all managed by a robust Mealy finite state machine.
 
@@ -53,7 +53,7 @@ A complete bare-metal security system for an STM32F4 microcontroller. It impleme
 *   State machine design for event-driven systems.
 *   Critical sections for safe state transitions.
 
-### 3. [STM32 Auto-Cooler System](./project-3-auto-cooler/)
+### 3. [STM32 Auto-Cooler System](./Project%203%20(Auto-Cooler%20System)/)
 
 A real-time temperature control system for the STM32F401. It uses an ADC to read an LM35 temperature sensor and dynamically controls a cooling fan via PWM, all driven by a state machine and displayed on a 16x2 LCD.
 
