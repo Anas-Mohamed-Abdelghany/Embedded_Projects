@@ -1,5 +1,3 @@
-Video Link: https://drive.google.com/file/d/1J_jFjnQqdr-vXurJz4BSndE6Y4EAXK65/view?usp=drivesdk
-
 # Project 1 — Embedded Memory & Message Codec Library
 
 A reusable, hardware-agnostic C library for safe memory access and structured message encoding/decoding, designed for simulated embedded communication links.
