@@ -7,6 +7,8 @@
 
 A production-grade, modular firmware for a collaborative dual-elevator system. This project implements a fully bare-metal architecture, interacting directly with MCU registers to manage complex elevator logic, inter-processor communication (IPC), and real-time task scheduling.
 
+<img width="960" height="509" alt="Screenshot 2026-05-15 211151" src="https://github.com/user-attachments/assets/c704a3fe-04ec-49ca-a5f7-04e60bf74278" />
+
 ---
 
 ## 🛠 Project Highlights
